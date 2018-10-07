@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[运行linux shell的三种方法]]></title>
+    <url>%2F2017%2F09%2F09%2F%E8%BF%90%E8%A1%8Clinux%20shell%E7%9A%84%E4%B8%89%E7%A7%8D%E6%96%B9%E6%B3%95%2F</url>
+    <content type="text"><![CDATA[使文件具有可执行权限，直接运行文件 直接调用命令解释器执行程序 使用source执行文件 使用source执行shell脚本时，不会创建子进程，而是在父进程中直接执行！ 和其他运行脚本不通，source命令影响shell进程本身。在脚本的执行过程中，并没有进程创建和消亡。 当需要在程序中修改当前shell本身的环境变量时，使用souorce命令。]]></content>
+      <categories>
+        <category>tips</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+        <tag>shell</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[使用Visual Studio Code打开浏览器查看HTML文件]]></title>
+    <url>%2F2017%2F02%2F19%2F%E4%BD%BF%E7%94%A8Visual%20Studio%20Code%E6%89%93%E5%BC%80%E6%B5%8F%E8%A7%88%E5%99%A8%E6%9F%A5%E7%9C%8BHTML%E6%96%87%E4%BB%B6%2F</url>
+    <content type="text"><![CDATA[首先界面按下Ctrl+Shift+P显示命令面板，输入ctr 然后选择【Others】，可以看到默认配置 最后修改如下(删除其中一行)： 123456789&#123; "version": "0.1.0", "command": "Chrome", "windows": &#123; "command": "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe" &#125;, "args": ["$&#123;file&#125;"], "showOutput": "never"&#125; 快捷键Ctrl+Shift+B打开浏览器查看该文件，快捷键Ctrl+Shift+V来预览该html文件]]></content>
+      <categories>
+        <category>tips</category>
+      </categories>
+      <tags>
+        <tag>tips vscode</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[my 2017]]></title>
+    <url>%2F2017%2F02%2F05%2Fmy-2017%2F</url>
+    <content type="text"><![CDATA[work hard, live well, do good to others. you don’t know what you don’t know.]]></content>
+      <categories>
+        <category>other</category>
+      </categories>
+      <tags>
+        <tag>other</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[nothing to say]]></title>
+    <url>%2F2017%2F01%2F23%2Fnothing-to-say%2F</url>
+    <content type="text"><![CDATA[但行好事，莫问前程！]]></content>
+      <categories>
+        <category>other</category>
+      </categories>
+      <tags>
+        <tag>other</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[新的开始——2017的蜕变]]></title>
+    <url>%2F2017%2F01%2F20%2F%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B%E2%80%94%E2%80%942017%E7%9A%84%E8%9C%95%E5%8F%98%2F</url>
+    <content type="text"><![CDATA[做好东西，做好手边的事，一切从头开始，都会好起来的，加油，我的2017！]]></content>
+      <categories>
+        <category>other</category>
+      </categories>
+      <tags>
+        <tag>other</tag>
+      </tags>
+  </entry>
+</search>

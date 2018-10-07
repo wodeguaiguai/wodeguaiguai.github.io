@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>我的乖乖</title>
+  
+  <subtitle>人生苦短，我用python!</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://blog.corngg.cn/"/>
+  <updated>2018-10-07T11:39:56.098Z</updated>
+  <id>http://blog.corngg.cn/</id>
+  
+  <author>
+    <name>我的乖乖</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>运行linux shell的三种方法</title>
+    <link href="http://blog.corngg.cn/2017/09/09/%E8%BF%90%E8%A1%8Clinux%20shell%E7%9A%84%E4%B8%89%E7%A7%8D%E6%96%B9%E6%B3%95/"/>
+    <id>http://blog.corngg.cn/2017/09/09/运行linux shell的三种方法/</id>
+    <published>2017-09-08T16:00:00.000Z</published>
+    <updated>2018-10-07T11:39:56.098Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li>使文件具有可执行权限，直接运行文件</li><li>直接调用命令解释器执行程序</li><li>使用source执行文件<blockquote><ul><li>使用source执行shell脚本时，不会创建子进程，而是在父进程中直接执行！ </li><li>和其他运行脚本不通，source命令影响shell进程本身。在脚本的执行过程中，并没有进程创建和消亡。</li><li>当需要在程序中修改当前shell本身的环境变量时，使用souorce命令。</li></ul></blockquote></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;使文件具有可执行权限，直接运行文件&lt;/li&gt;
+&lt;li&gt;直接调用命令解释器执行程序&lt;/li&gt;
+&lt;li&gt;使用source执行文件&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;使用source执行shell脚本时，不会创建子进程，而是在父进程中直接执行！ &lt;/li&gt;
+&lt;
+      
+    
+    </summary>
+    
+      <category term="tips" scheme="http://blog.corngg.cn/categories/tips/"/>
+    
+    
+      <category term="linux" scheme="http://blog.corngg.cn/tags/linux/"/>
+    
+      <category term="shell" scheme="http://blog.corngg.cn/tags/shell/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用Visual Studio Code打开浏览器查看HTML文件</title>
+    <link href="http://blog.corngg.cn/2017/02/19/%E4%BD%BF%E7%94%A8Visual%20Studio%20Code%E6%89%93%E5%BC%80%E6%B5%8F%E8%A7%88%E5%99%A8%E6%9F%A5%E7%9C%8BHTML%E6%96%87%E4%BB%B6/"/>
+    <id>http://blog.corngg.cn/2017/02/19/使用Visual Studio Code打开浏览器查看HTML文件/</id>
+    <published>2017-02-18T16:00:00.000Z</published>
+    <updated>2018-10-07T11:39:56.098Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li>首先界面按下Ctrl+Shift+P显示命令面板，输入ctr</li><li>然后选择【Others】，可以看到默认配置</li><li><p>最后修改如下(删除其中一行)：</p><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">"version"</span>: <span class="string">"0.1.0"</span>,</span><br><span class="line">    <span class="attr">"command"</span>: <span class="string">"Chrome"</span>,</span><br><span class="line">    <span class="attr">"windows"</span>: &#123;</span><br><span class="line">        <span class="attr">"command"</span>: <span class="string">"C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">"args"</span>: [<span class="string">"$&#123;file&#125;"</span>],</span><br><span class="line">    <span class="attr">"showOutput"</span>: <span class="string">"never"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li><p>快捷键Ctrl+Shift+B打开浏览器查看该文件，快捷键Ctrl+Shift+V来预览该html文件</p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;首先界面按下Ctrl+Shift+P显示命令面板，输入ctr&lt;/li&gt;
+&lt;li&gt;然后选择【Others】，可以看到默认配置&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;最后修改如下(删除其中一行)：&lt;/p&gt;
+&lt;figure class=&quot;highlight json&quot;&gt;&lt;table
+      
+    
+    </summary>
+    
+      <category term="tips" scheme="http://blog.corngg.cn/categories/tips/"/>
+    
+    
+      <category term="tips vscode" scheme="http://blog.corngg.cn/tags/tips-vscode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>my 2017</title>
+    <link href="http://blog.corngg.cn/2017/02/05/my-2017/"/>
+    <id>http://blog.corngg.cn/2017/02/05/my-2017/</id>
+    <published>2017-02-04T16:00:00.000Z</published>
+    <updated>2018-10-07T11:39:56.098Z</updated>
+    
+    <content type="html"><![CDATA[<p>work hard, live well, do good to others.</p><p>you don’t know what you don’t know.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;work hard, live well, do good to others.&lt;/p&gt;
+&lt;p&gt;you don’t know what you don’t know.&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="other" scheme="http://blog.corngg.cn/categories/other/"/>
+    
+    
+      <category term="other" scheme="http://blog.corngg.cn/tags/other/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>nothing to say</title>
+    <link href="http://blog.corngg.cn/2017/01/23/nothing-to-say/"/>
+    <id>http://blog.corngg.cn/2017/01/23/nothing-to-say/</id>
+    <published>2017-01-22T16:00:00.000Z</published>
+    <updated>2018-10-07T11:39:56.098Z</updated>
+    
+    <content type="html"><![CDATA[<p>但行好事，莫问前程！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;但行好事，莫问前程！&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="other" scheme="http://blog.corngg.cn/categories/other/"/>
+    
+    
+      <category term="other" scheme="http://blog.corngg.cn/tags/other/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>新的开始——2017的蜕变</title>
+    <link href="http://blog.corngg.cn/2017/01/20/%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B%E2%80%94%E2%80%942017%E7%9A%84%E8%9C%95%E5%8F%98/"/>
+    <id>http://blog.corngg.cn/2017/01/20/新的开始——2017的蜕变/</id>
+    <published>2017-01-19T16:00:00.000Z</published>
+    <updated>2018-10-07T11:39:56.098Z</updated>
+    
+    <content type="html"><![CDATA[<p>做好东西，做好手边的事，一切从头开始，都会好起来的，加油，我的2017！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;做好东西，做好手边的事，一切从头开始，都会好起来的，加油，我的2017！&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="other" scheme="http://blog.corngg.cn/categories/other/"/>
+    
+    
+      <category term="other" scheme="http://blog.corngg.cn/tags/other/"/>
+    
+  </entry>
+  
+</feed>
